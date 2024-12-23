@@ -1,23 +1,14 @@
-## CS230
-
 # Briefly summarize The Gaming Room client and their software requirements. Who was the client? What type of software did they want you to design?
-
-
-
+The client, The Gaming Room, is currently operating the game Draw IT or Lose It, currently in operation as an Android app only, and is seeking to have the game developed as a 
+multiplatform title, with a focus on Windows / macOS / Linux.
 # What did you do particularly well in developing this documentation?
-
-
-
+Learning about new tools used in the development of multiplatform applications, I spent an amount of time exploring development using Kotlin while leveraging my experience with Java development.
 # What about the process of working through a design document did you find helpful when developing the code?
-
-
-
+Using a design document to guide the development of a project is often one of the most effective tools for keeping a project organized in the early stages of development. While this document was not accompanied by any code, in another of my courses from an earlier term (GAM303 – Design of Virtual Game Environments), the use of a design document with a well maintained change log and record of bugs / fixes helped to prevent scope creep and identify where more attention was needed in the code base by frequency of error.
 # If you could choose one part of your work on these documents to revise, what would you pick? How would you improve it?
-
-
-
+I would revise the System Architecture section, as while it was not necessary for the scope of the assignment, it is an important area to consider while designing an application. While a recommendation is made regarding the architecture of the server side application later in the document, I would revise the System Architecture section with a more generalized version of the later information.
 # How did you interpret the user’s needs and implement them into your software design? Why is it so important to consider the user’s needs when designing?
-
-
-
+I interpreted the user’s needs as three main focus areas Security, Stability, Functionality. A user wants an application that is secure, that has as few bugs as possible and performs the intended functions as efficiently as possible. By focusing development efforts on a single multiplatform language and using a well-regarded server operating environment more time can be spent to ensure the application meets all three criteria. As with many applications, the users’ experience with client side of the application is their user’s main way of gauging the overall quality of the application. An application with an excellent back-end / server, but user unfriendly front-end will likely lose users quickly.
 # How did you approach designing software? What techniques or strategies would you use in the future to analyze and design a similar software application?
+
+I use an iterative design process, starting from the initial concept I expand / fill out features to match the desired feature set during the initial phase. In developing software outside of the scope of this project, I use Codecks for tracking the design and development of my applications and Bitbucket / Git for source control.
